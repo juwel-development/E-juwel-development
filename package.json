@@ -1,0 +1,15 @@
+{
+  "name": "@juwel-development/e-juwel-development",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:juwel-development/E-juwel-development.git",
+  "author": "Jens-Uwe Loessl <mail@jens-uwe-loessl.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.13.3"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}

@@ -1,0 +1,5 @@
+/node_modules
+.turbo/
+
+# for now as we use the package-lock.json in the submodules
+package-lock.json
