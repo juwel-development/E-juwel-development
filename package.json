@@ -5,6 +5,10 @@
   "repository": "git@github.com:juwel-development/E-juwel-development.git",
   "author": "Jens-Uwe Loessl <mail@jens-uwe-loessl.de>",
   "license": "MIT",
+  "scripts": {
+    "start": "turbo run start",
+    "lint": "turbo run lint"
+  },
   "devDependencies": {
     "turbo": "^1.13.3"
   },
