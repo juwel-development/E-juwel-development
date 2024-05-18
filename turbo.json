@@ -3,7 +3,9 @@
   "pipeline": {
     "start": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "outputs": ["dist/**/*"],
+      "inputs": ["src/**/*"]
     },
     "lint": {}
   }
